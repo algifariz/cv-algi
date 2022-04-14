@@ -1,0 +1,48 @@
+CRITICAL - 2022-04-08 16:46:30 --> Undefined index: edu_name
+#0 C:\laragon\www\cv\app\Views\index.php(253): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 253, Array)
+#1 C:\laragon\www\cv\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\cv\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\cv\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\laragon\www\cv\app\Controllers\Home.php(20): view('index', Array)
+#5 C:\laragon\www\cv\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\laragon\www\cv\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laragon\www\cv\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\cv\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\cv\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-04-08 17:23:11 --> Undefined variable: skil
+#0 C:\laragon\www\cv\app\Views\index.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 111, Array)
+#1 C:\laragon\www\cv\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\cv\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\cv\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\laragon\www\cv\app\Controllers\Home.php(23): view('index', Array)
+#5 C:\laragon\www\cv\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\laragon\www\cv\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laragon\www\cv\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\cv\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\cv\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-04-08 17:23:24 --> Undefined variable: skil
+#0 C:\laragon\www\cv\app\Views\index.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 111, Array)
+#1 C:\laragon\www\cv\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\cv\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\cv\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\laragon\www\cv\app\Controllers\Home.php(23): view('index', Array)
+#5 C:\laragon\www\cv\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\laragon\www\cv\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laragon\www\cv\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\cv\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\cv\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-04-08 17:23:48 --> Undefined index: nama
+#0 C:\laragon\www\cv\app\Views\index.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 114, Array)
+#1 C:\laragon\www\cv\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\cv\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\cv\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\laragon\www\cv\app\Controllers\Home.php(23): view('index', Array)
+#5 C:\laragon\www\cv\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\laragon\www\cv\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laragon\www\cv\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\cv\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\cv\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}

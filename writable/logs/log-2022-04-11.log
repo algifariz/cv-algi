@@ -1,0 +1,34 @@
+CRITICAL - 2022-04-11 10:18:38 --> Undefined offset: 0
+#0 C:\laragon\www\cv\app\Controllers\Home.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\laragon\\www\\...', 18, Array)
+#1 C:\laragon\www\cv\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\laragon\www\cv\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laragon\www\cv\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\cv\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\cv\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-04-11 11:25:36 --> Undefined index: alltan.png
+#0 C:\laragon\www\cv\app\Views\template.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\cv\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\cv\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\cv\system\View\View.php(226): CodeIgniter\View\View->render('template', Array, true)
+#4 C:\laragon\www\cv\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#5 C:\laragon\www\cv\app\Controllers\Home.php(23): view('index', Array)
+#6 C:\laragon\www\cv\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\laragon\www\cv\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\laragon\www\cv\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cv\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\cv\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2022-04-11 11:26:13 --> Undefined index: alltan.png
+#0 C:\laragon\www\cv\app\Views\template.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\cv\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\cv\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\cv\system\View\View.php(226): CodeIgniter\View\View->render('template', Array, true)
+#4 C:\laragon\www\cv\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#5 C:\laragon\www\cv\app\Controllers\Home.php(23): view('index', Array)
+#6 C:\laragon\www\cv\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 C:\laragon\www\cv\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\laragon\www\cv\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\cv\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\cv\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#11 {main}
